@@ -1,0 +1,148 @@
+.galContainer {
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    
+    
+}
+
+.galContent {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+    /* background-color: aqua; */
+    
+}
+
+.galRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -700px;
+    text-align: center;
+    /* background-color: blue; */
+    margin-top: 00px;
+    
+}
+
+.gallery {
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    padding-left: 0px;
+    padding-right: 150px;
+    
+    
+
+    
+}
+
+.galPar {
+    margin-top: -20px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    line-height: 1.5;
+    font-size: x-large;
+    padding-right: 100px;
+}
+
+.galNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.items {
+    word-spacing: 30px;
+    font-size: x-large;
+    padding: 50px 0px;
+    
+}
+
+button3 {
+    padding: 20px 40px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border-width: thick;
+    border-style: solid;
+    background-color: rgba(15, 83, 114, 0.849);
+    word-spacing: 5px;
+    color: white;
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.seeAll{
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.gal-row-two {
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+.picCol1 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: auto;
+    
+    /* column-width: 30px; */
+}
+
+.picOne {
+    
+    padding-bottom: 30px;
+    /* padding-left: 100px; */
+    padding-right: 30px;
+
+}
+
+.picTwo {
+   padding-right: 30px; 
+   /* padding-left: 100px; */
+
+}
+
+.picCol2 {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.picThree {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.picFour {
+    padding-right: 30px;
+}
+
+.picCol3 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   
+}
+
+.picFive {
+    padding-top: 30px;
+    /* padding-right: 100px; */
+    padding-bottom: 30px; 
+}
+
+.picSix {
+    padding-bottom: 30px; 
+    /* padding-right: 100px; */
+}
+
+@media screen and (max-width: 480px) {
+    .galContainer {
+      flex-direction: column;
+    }
+  }

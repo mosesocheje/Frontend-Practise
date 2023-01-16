@@ -1,0 +1,141 @@
+.feaContainer {
+    display: flex;
+    flex-direction: row;
+    /* background-color: orangered; */
+    margin-top: -1100px;
+    margin-bottom: 150px;
+    padding: 200px;
+}
+
+.feaContainer {
+    display: flex;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+    padding: 0 100px;
+    
+}
+
+.feaRow1 {
+   
+    /* background-color: aqua; */
+    width: 1920px;
+    margin-bottom: 50px;
+   
+}
+
+.features {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 100px;
+}
+
+.feaPar {
+    text-align: center;
+    font-size: x-large;
+    line-height: 2;
+    padding-bottom: 10px;
+   
+}
+
+.feaR0w2 {
+    display: flex;
+    flex-direction: row;
+    width: 1950px;
+    /* background-color: green; */
+    justify-content: center;
+    margin-bottom: 20px;
+   
+}
+
+.feaCol1 {
+    display: inline-flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    width: 600px;
+   padding-bottom: 20px;
+}
+
+.chair {
+    justify-content: center;
+    
+    size: 50px;
+}
+
+.clock{
+
+}
+
+.head1 {
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+.feaPar1 {
+    text-align: center;
+    font-size: larger;
+    line-height: 2;
+    margin-top: -20px;
+}                     
+
+.feaCol2 {
+    display: inline-flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+.head2 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.feaPar2 {
+    text-align: center;
+    font-size: larger;
+    line-height: 2;
+    margin-top: -20px;
+}              
+
+.feaCol3 {
+    display: inline-flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+.head3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.feaPar3 {
+    text-align: center;
+    font-size: larger;
+    line-height: 2;
+    margin-top: -20px;
+}              
+
+.truck {
+    font-size: 100px;
+    text-align: center; 
+    
+}
+
+.clock {
+    font-size: 80px;
+    text-align: center; 
+}
+
+.chair {
+    font-size: 100px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 480px) {
+    .feaContainer {
+      flex-direction: column;
+    }
+  }

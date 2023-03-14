@@ -55,7 +55,7 @@
     padding-right: 120px;
 }
 button2{
-    padding: 20px 50px;
+    padding: 20px 30px;
     font-size: 1.2em;
     border-radius: 8px;
     background-color: rgba(15, 83, 114, 0.849);
@@ -111,5 +111,55 @@ button2{
     .content2 {
       flex-direction: column;
       width: fit-content;
+      margin-left: -30px;
+    }
+
+    .heading {
+        font-size: 3em;
+        margin-left: -70px;
+        margin-top: -100px;
+    }
+    .para {
+        margin-left: -70px;
+        font-size: large;
+        padding-top: 10px;
+    }
+    button2 {
+        font-size: 0.9em;
+        padding: 13px;
+        margin: -30px;
+        display: inline-flex;
+        margin-left: -70px;
+        
+    }
+    .instagram {
+        color: #000;
+        padding-right: 30px;
+
+    }
+    
+    .twitter {
+        color: #000;
+        padding-right: 20px;
+    }
+    .img1 {
+        margin-left: -70px;
+        width: 200px;
+        height: 150px;
+        padding-bottom: 50px;
+    }
+    .new {
+        margin-left: -70px;
+        width: 80vw; 
+        height: 50vh;
+    }
+    .see-more {
+        display: block;
+        flex-direction: row;
+    }
+    .social {
+        margin-left: 70px;
+        margin-top: -20px;
+        display: inline-flex;
     }
   }

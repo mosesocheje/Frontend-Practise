@@ -7,16 +7,18 @@
     padding: 200px;
 }
 
-.feaContainer {
+.feaContainer{
     display: flex;
     flex-direction: row;
     /* background-color: blueviolet; */
     padding: 0 100px;
+    margin-top: -px;
     
 }
 
 .feaRow1 {
-   
+   display: flex;
+   flex-direction: row;
     /* background-color: aqua; */
     width: 1920px;
     margin-bottom: 50px;
@@ -27,6 +29,9 @@
     text-align: center;
     font-size: xx-large;
     padding-top: 100px;
+    justify-content: center;
+    padding-left: 700px;
+    
 }
 
 .feaPar {
@@ -34,6 +39,8 @@
     font-size: x-large;
     line-height: 2;
     padding-bottom: 10px;
+    margin-top: 200px;
+    margin-left: -500px;
    
 }
 
@@ -138,4 +145,101 @@
     .feaContainer {
       flex-direction: column;
     }
-  }
+    .feaContent {
+        flex-direction: column;
+        width: 40vh;
+    }
+    .feaRow1 {
+        flex-direction: column;
+    }
+    .features {
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 900px;
+       margin-left: -2450px;
+       padding-top: 100px;
+      
+    }
+       
+    
+    .feaPar {
+        text-align: center;
+        font-size: large;
+        line-height: 1.5;
+        margin-left: -1630px;
+        margin-top: -30px; 
+        
+    }
+    .feaRow2 {
+        flex-direction: column;
+        margin-left: -200px;
+    }
+    .head1 {
+        text-align: center;
+        font-size: larger;
+        
+    }
+    
+    .feaPar1 {
+        text-align: center;
+        font-size: larger;
+        line-height: 1.5;
+        margin-top: -20px;
+    }                     
+    
+    .feaCol2 {
+        display: inline-flex;
+        flex-direction: column;
+        /* background-color: pink; */
+        width: 600px;
+        padding-bottom: 20px;
+    }
+    
+    .head2 {
+        text-align: center;
+        font-size: larger;
+    }
+    
+    .feaPar2 {
+        text-align: center;
+        font-size: larger;
+        line-height: 1.5;
+        margin-top: -20px;
+    }              
+    
+    .feaCol3 {
+        display: inline-flex;
+        flex-direction: column;
+        /* background-color: blue; */
+        width: 600px;
+        padding-bottom: 20px;
+    }
+    
+    .head3 {
+        text-align: center;
+        font-size: larger;
+    }
+    
+    .feaPar3 {
+        text-align: center;
+        font-size: larger;
+        line-height: 1.5;
+        margin-top: -20px;
+    }              
+    
+    .truck {
+        font-size: 80px;
+        text-align: center; 
+        
+    }
+    
+    .clock {
+        font-size: 70px;
+        text-align: center; 
+    }
+    
+    .chair {
+        font-size: 80px;
+        text-align: center; 
+    }
+}

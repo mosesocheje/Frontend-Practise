@@ -6,9 +6,9 @@ function Navigation () {
     return (
       <div className="Container">
         <div className='content'>
-            <div><b>U.Idesk </b></div>  
+            <div className="uidesk"><b>U.Idesk </b></div>  
             <div>Home About Us Services Gallery Shop</div>
-            <div>LOGIN <button1>GET STARTED</button1></div>
+            <div className="login">LOGIN <button1>GET STARTED</button1></div>
         </div>
       </div>
     );

@@ -17,27 +17,75 @@
     padding-bottom: 100px;
     margin-bottom: 70px;
     word-spacing: 50px;
-    font-size: 1.2em;
+    font-size: 1.8em;
+    width: 90%;
     /* color: rgb(37, 27, 27); */
     cursor: pointer;
     /* background-color: palevioletred; */
 }
 button1 {
-    font-size: 1em;
+    font-size: 0.9em;
     border-radius: 8px;
-    padding: 16px;
+    padding: 15px;
     margin-left: 20px;
     background-color: rgba(17, 105, 146, 0.849);
     color: white;
     word-spacing: 2px;
     cursor: pointer;
+    margin-right: 30px;
+
 }
 b {
-    font-size: 1.3em;
+    font-size: 1.8em;
+}
+.uidesk {
+    margin-left: -20px;
+    font-size: 0.6em;
+    padding-right: 10px;
+    
+}
+.login {
+    margin-left: 10px;
+
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+    .container {
+        display: inline-flex;
+        flex-direction: row;
+
+    }
     .content{
-      flex-direction: column;
+      flex-direction: row;
+      word-spacing: 30px;
+      font-size: 1.2em;
+      font-weight: 500;
+     
+    }
+    button1 {
+        padding: 10px 10px;
+        border-radius: 5px;
+        font-size: 0.8em;
+        word-spacing: 0.5px;
+        margin-top: -10px;
+        margin-bottom: 80px;
+        width: 100px;
+       /* padding-bottom: 10px; */
+       /* margin-top: 50px; */
+    }
+    b {
+        font-size: 1.5em;
+    }
+  
+    .uidesk {
+        margin-left: -60px;
+        font-size: 0.8em;
+        padding-right: 10px;
+        
+    }
+    .login {
+        /* margin-left: 5px; */
+        display: inline-flex;
+
     }
   }
